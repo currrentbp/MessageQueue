@@ -65,7 +65,7 @@ public class Server {
             try {
                 System.out.println("====finally====");
                 socket.shutdownOutput();
-                socket.close();
+//                socket.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
