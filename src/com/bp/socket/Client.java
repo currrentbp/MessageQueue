@@ -45,8 +45,8 @@ public class Client {
 			
 			pw.write("CountNum:addCount:20160428,1\n");
 			pw.flush();
-			socket.shutdownOutput();
-			
+//			socket.shutdownOutput();
+
 			is = socket.getInputStream();
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
 			
