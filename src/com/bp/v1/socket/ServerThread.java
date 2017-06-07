@@ -1,4 +1,4 @@
-package com.bp.socket;
+package com.bp.v1.socket;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import com.bp.messageQueue.HandleCode;
+import com.bp.v1.messageQueue.HandleCode;
 
 
 

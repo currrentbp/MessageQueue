@@ -1,4 +1,4 @@
-package com.bp.socket;
+package com.bp.v1.socket;
 
 import java.io.BufferedReader;
 import java.io.IOException;

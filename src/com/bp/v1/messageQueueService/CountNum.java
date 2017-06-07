@@ -1,4 +1,4 @@
-package com.bp.messageQueueService;
+package com.bp.v1.messageQueueService;
 
 import java.util.Map;
 import java.util.TreeMap;

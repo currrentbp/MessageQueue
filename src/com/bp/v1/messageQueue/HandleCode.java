@@ -1,6 +1,5 @@
-package com.bp.messageQueue;
+package com.bp.v1.messageQueue;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,7 +20,7 @@ public class HandleCode {
 	 * @return
 	 */
 	public String invokeMethod(String info){
-		return invokeMethod( "com.bp.messageQueueService", info);
+		return invokeMethod( "com.bp.v1.messageQueueService", info);
 	}
 	public String invokeMethod(String path,String info){
 		List infos = parseInfo(info);
