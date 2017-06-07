@@ -62,7 +62,11 @@ public class Client {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-
+            try {
+                socket.shutdownOutput();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
         return result;
